@@ -20,7 +20,6 @@ form {
   background: #fff;
   border-radius: 12px;
   text-transform: uppercase;
-  box-shadow: 1px 0px 11px 2px rgba(207, 65, 17, 0.59);
 }
 /* form:hover {
   box-shadow: 1px 0px 11px 2px rgba(83, 255, 123, 0.59);
