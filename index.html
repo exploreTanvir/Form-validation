@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./js/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="d-flex justify-content-center align-items-center">
+    <form>
+      <h1 class="title mb-3 text-center">Login Form</h1>
+      <div class="area">
+        <label for="Username">Username</label>
+        <input
+          id="username"
+          class="input-group"
+          type="text"
+          name="username"
+          placeholder="Enter Your Username"
+        />
+        <p class="input-text">Error message</p>
+      </div>
+      <div class="area">
+        <label for="Password">Password</label>
+        <input
+          id="password"
+          class="input-group"
+          type="password"
+          name="password"
+          placeholder="Enter Your Password"
+        />
+        <p class="input-text">Error message</p>
+      </div>
+      <input id="submit" value="SUBMIT" />
+    </form>
+
+    <script src="./js/js/bootstrap.bundle.min.jss"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
